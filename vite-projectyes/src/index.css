@@ -26,12 +26,34 @@ body {
   margin: 0;
   display: flex;
   place-items: center;
+  width: 50%;
   min-width: 320px;
   min-height: 100vh;
 }
 
+ul {
+  text-align: center;
+}
+li {
+  display: flow;
+  text-align: center;
+}
+
+header {
+  border: 6px solid darkcyan;
+  justify-content: center;
+  margin: auto;
+  width: 1800px;
+  padding: 50px;
+}
+
+div {
+  justify-content: center;
+}
+
 h1 {
-  font-size: 3.2em;
+  text-align: center;
+  font-size: 6.2em;
   line-height: 1.1;
 }
 
