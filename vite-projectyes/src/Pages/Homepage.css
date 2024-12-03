@@ -1,0 +1,46 @@
+body {
+    background-image: url("../assets/Mesa de trabajo 1 1.png");
+    margin: 0;
+}
+
+.navbar {
+    background-color: #00236D;
+    overflow: hidden;
+    height: 85px;
+    display: flex;
+    flex-direction: row;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    box-shadow: 3px 3px 3px 3px #1a1a1a;
+    gap: 35px;
+}
+
+.navbar img {
+    height: 75%;
+    margin-top: 12px;
+    margin-left: 30px;
+    margin-right: 150px;
+}
+
+.navbar h3 {
+    align-self: center;
+    color: #f9f9f9;
+}
+
+.navbar .login {
+    margin-left: 1100px;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 3px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.BigLogo {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 900px;
+    text-align: center;
+}

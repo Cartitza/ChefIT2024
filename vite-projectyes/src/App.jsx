@@ -1,7 +1,7 @@
-import Message from "./Message.jsx";
+import Homepage from "./Pages/Homepage.jsx";
 
 function App() {
-    return <div><Message></Message></div>;
+    return <div><Homepage></Homepage></div>;
 }
 
 export default App;
